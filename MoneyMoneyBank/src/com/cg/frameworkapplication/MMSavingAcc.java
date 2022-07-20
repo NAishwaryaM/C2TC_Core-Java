@@ -8,14 +8,14 @@ public class MMSavingAcc extends SavingAcc {
 	
 	public MMSavingAcc(int accNo, String accNm, float accBal,boolean issalaried)
 	{
-		super(accNo, accNm, accBal,isSalaried);
+		super(accNo, accNm, accBal,issalaried);
 		
 	}
 
 	
 	public void withdraw(float accBal)
 	{
-       System.out.println("Withdwawl amount:"+accBal);
+       System.out.println("Withdrawl amount:"+accBal);
 }
 
 

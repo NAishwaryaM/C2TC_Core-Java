@@ -8,10 +8,12 @@ import com.cg.framework.SavingAcc;
 
 public class MMBankFactory extends BankFactory
 {
+	
+	
 	@Override
-	public SavingAcc getNewSavingAccount(int accNo, String accNm, float accBal, boolean isSalaried) 
+	public SavingAcc getNewSavingAccount(int accNo, String accNm, float accBal, boolean issalaried) 
 	{
-		SavingAcc sa=new SavingAcc(accNo,accNm,accBal,isSalaried);
+		SavingAcc sa=new SavingAcc(accNo,accNm,accBal,issalaried);
 		return sa;
 	}
 
